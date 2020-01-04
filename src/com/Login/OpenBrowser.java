@@ -14,6 +14,7 @@ public class OpenBrowser {
 	private WebDriver driver;
 
     @BeforeMethod
+    
     public void setupClass() {
         WebDriverManager.chromedriver().setup();
         driver=new FirefoxDriver();
